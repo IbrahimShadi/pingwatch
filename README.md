@@ -14,8 +14,8 @@ Built with Python 3 using `ping3`, `pandas`, and `matplotlib`, it also offers cl
 - **Configurable schedule** — Control targets, intervals, counts, and timeouts via CLI arguments
 
 ---
-´´´
-## 📂 Project Structure
+
+## 📂 Project Structure ´´´
 pingwatch/
 ├─ src/
 │ └─ pingwatch/
