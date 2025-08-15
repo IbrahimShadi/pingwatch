@@ -28,7 +28,7 @@ pingwatch/
 ├─ targets.txt # List of hosts/IPs to monitor
 ├─ requirements.txt
 └─ README.md
-´´´
+```
 
 ---
 
