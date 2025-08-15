@@ -15,7 +15,8 @@ Built with Python 3 using `ping3`, `pandas`, and `matplotlib`, it also offers cl
 
 ---
 
-## 📂 Project Structure ´´´
+## 📂 Project Structure
+´´´
 pingwatch/
 ├─ src/
 │ └─ pingwatch/
