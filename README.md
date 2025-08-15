@@ -35,7 +35,7 @@ pingwatch/
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/<your-username>/pingwatch.git
+git clone https://github.com/IbrahimShadi/pingwatch.git
 cd pingwatch
 
 python -m venv .venv
