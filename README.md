@@ -16,7 +16,7 @@ and generates visual reports of network performance over time.
 Clone the repository and set up the environment:
 
 ```bash
-git clone https://github.com/<your-username>/pingwatch.git
+git clone https://github.com/IbrahimShadi/pingwatch.git
 cd pingwatch
 
 # Create and activate virtual environment
