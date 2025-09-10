@@ -10,7 +10,20 @@ PingWatch is a lightweight Python tool for monitoring network availability and l
 - Optional daily/interval execution via cron (Linux) or Task Scheduler (Windows)
 
 ## Quickstart
+
 ```bash
-python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
+# Virtuelle Umgebung erstellen und aktivieren
+python -m venv .venv
+# Linux/Mac:
+source .venv/bin/activate
+# Windows PowerShell:
+.\.venv\Scripts\Activate.ps1
+
+# Abhängigkeiten installieren
 pip install -r requirements.txt
-python -m pingwatch --targets targets.txt --count 5 --interval 5 --out data/logs/run.csv
+
+# Monitoring starten (CSV schreiben)
+python -m src.pingwatch run --targets targets.txt --count 5 --interval 5 --out data/logs/run.csv
+
+# Plot erstellen (PNG erzeugen)
+python -m src.pingwatch plot --csv data/logs/run.csv --out docs/example_plot.png
